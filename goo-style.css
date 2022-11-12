@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+::-webkit-scrollbar{
+	width: 10px;
+	background: goldenrod;
+}
+::-webkit-scrollbar-thumb{
+	background: grey;
+	border-radius: 100px;
+}
+body{
+	font-family:Cascadia Code;
+	background-color: #5F6A61;
+	color: white;
+	background: #5F6A61 url('wall.gif') no-repeat;
+	background-size: cover;
+}
+p,h3,span{
+	cursor: pointer;
+	line-height: 23px;
+	padding-bottom: 20px;
+	text-indent: 1.5em;
+}
+a{
+	font-style: italic;
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color:silver;
+	font-style: normal;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+.verh{
+	display:inline-flex;
+	justify-content: space-around;
+	margin: 20px;
+}
+.verh img{
+	height: 100px;
+	width: 100px;
+}
+.kvadrat {
+    border-radius: 100px; 
+    box-shadow: 0 0 7px #000000; 
+}
+.mezh{
+	text-align: center;
+}
+.mezh img{
+	margin-bottom: 20px;
+	border-radius: 120px;
+}
+.duck{
+	display: flex;
+	justify-content: center;
+}
+div h1{
+	font-size: 3.5em;
+	font-family: 'Poor Story', cursive;
+	color: yellowgreen;
+	margin: 15px;
+}
+.borjomi{
+	background-color:#0F3D4E;
+	border-radius: 65px;
+	width: 85%;
+	height: 1620px;
+	margin-left: 70px;
+	box-shadow: 0 0 1px silver;
+	padding: 10px 50px 50px 50px;
+}
+.inform1 h3{
+	text-align: center;
+	color: white;
+	text-align:justify;
+	padding-top: 40px;
+}
+.inform2{
+	text-align:justify;
+	display: inline-flex;
+	justify-self: space-between;
+}
+.inform2 p{
+	padding-right: 40px;
+}
+.inform3{
+	text-align:justify;
+}
+.trai{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.trai video{
+	border-radius: 25px;
+	box-shadow: 0 0 2px silver;
+
+}
+.niz-vid{text-align:justify;
+}
+.niz-vid::after{
+	margin: 25px;
+	content: 'Основная цель игры состоит в том, чтобы привести необходимое количество шариков Goo до трубы, которая является выходом. Для того чтобы сделать это, игрок должен использовать шарики Гуу для строительства мостов, башен и других сооружений на преодоление гравитации в различных местах, таких как подземелья, холмы, пропасти или скалы. Все шарики, которые игрок собрал сверх необходимых на данном уровне, отправляются в World of Goo Corporation. ';
+}
+.dom{
+	background: url(ground.png) bottom center repeat-x;
+	background-attachment: fixed;
+	background-size: initial;
+	padding-top: 70px;
+}
+.dom a img{
+	transform: rotate(-180deg);
+	margin: 0 15px 15px 15px;
+	padding-top: 15px;
+}	
