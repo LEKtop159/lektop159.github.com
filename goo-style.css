@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
-@media only screen and (max-width : 1000px) {
-	.verh{
-		width: 300px;
-	}
-	.borjomi{
-		font-size: 10px;
-	}
-	.inform4 img{
-		font-size: 10px;
-	}
-}
+
 
 *{
 	margin: 0;
