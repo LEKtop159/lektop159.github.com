@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
-
+	@media only screen and (max-width : 1000px) {
+	.verh{
+		width: 300px;
+	}
+	.borjomi{
+		font-size: 10px;
+	}
+	.inform4{
+		font-size: 10px;
+	}
+}
 
 *{
 	margin: 0;
@@ -144,7 +154,6 @@ div h1{
 	filter: grayscale(100%);
 }
 .inf4-column{
-	margin-left: 40px;
 	display:flex;
 	justify-self: space-around;
 	flex-direction: column;
